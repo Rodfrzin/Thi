@@ -4,16 +4,16 @@ body {
 }
 
 .game-container {
-    width: 800px;
-    height: 400px;
+    width: 100vw; /* Largura da tela inteira */
+    height: 100vh; /* Altura da tela inteira */
     background-color: #f7f7f7;
     position: relative;
     overflow: hidden;
 }
 
 .sonic {
-    width: 50px;
-    height: 50px;
+    width: 5vw; /* Largura do Sonic em relação à largura da tela */
+    height: auto; /* Altura ajustada automaticamente */
     background-image: url('Sonic.gif');
     background-size: cover;
     position: absolute;
@@ -21,21 +21,21 @@ body {
 }
 
 .robot {
-    width: 40px;
-    height: 40px;
+    width: 4vw; /* Largura do robô em relação à largura da tela */
+    height: auto; /* Altura ajustada automaticamente */
     background-image: url('ju.gif');
     background-size: cover;
     position: absolute;
     bottom: 0;
-    left: 800px;
+    left: 100vw; /* Inicia o robô fora da tela à direita */
 }
 
 .bat {
-    width: 30px;
-    height: 30px;
+    width: 3vw; /* Largura do morcego em relação à largura da tela */
+    height: auto; /* Altura ajustada automaticamente */
     background-image: url('bat.gif'); /* Substitua 'bat.png' pela imagem do morcego */
     background-size: cover;
     position: absolute;
     bottom: 0;
-    left: 800px; /* Inicia o morcego fora da tela à direita */
+    left: 100vw; /* Inicia o morcego fora da tela à direita */
 }
